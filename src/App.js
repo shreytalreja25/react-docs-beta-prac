@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +16,16 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <form>
+          <fieldset>
+            <div className='Field'>
+              <label>Name : </label>
+              <input type="text" placeholder='Name' name="name" />
+            </div>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
       </header>
     </div>
   );
